@@ -87,6 +87,15 @@ nav :first-child{
     align-items: center;
 }
 
+@media screen and (max-width: 1081px){
+    .cell_group{
+        flex-direction: column;
+    }
+    header img{
+        margin: 0;
+    }
+}
+
 hr{
     max-width: 80%;
 }
